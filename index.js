@@ -25,7 +25,6 @@ window.setInterval(function() {
         audio.play();
 
         let counter = document.querySelector('.counter');
-        debugger
         counter.innerHTML = +counter.innerHTML + 1;
     }
 
